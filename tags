@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BHEAP_H_	bheap.h	9;"	d
+Insert	pheap.cpp	/^pnode *pheap::Insert(int &x)$/;"	f	class:pheap
+PHEAP_H_	pheap.h	9;"	d
+_heap	bheap.h	/^	std::vector<int> 						_heap;$/;"	m	class:bheap
+bheap	bheap.cpp	/^bheap::bheap(std::vector<int> &numbers){$/;"	f	class:bheap
+bheap	bheap.h	/^class bheap{$/;"	c
+combineSiblings	pheap.cpp	/^pnode *pheap::combineSiblings(pnode *firstSibling)$/;"	f	class:pheap
+compareAndLink	pheap.cpp	/^void pheap::compareAndLink(pnode * &first, pnode *second)$/;"	f	class:pheap
+deleteMin	pheap.cpp	/^void pheap::deleteMin()$/;"	f	class:pheap
+deleteMin	pheap.cpp	/^void pheap::deleteMin(int &minItem)$/;"	f	class:pheap
+deletemin	bheap.cpp	/^void bheap::deletemin(){$/;"	f	class:bheap
+element	pheap.h	/^        int element;$/;"	m	class:pnode
+findMin	pheap.cpp	/^int &pheap::findMin()$/;"	f	class:pheap
+getmin	bheap.cpp	/^int bheap::getmin(){$/;"	f	class:bheap
+insert	bheap.cpp	/^void bheap::insert(int ele){$/;"	f	class:bheap
+isEmpty	pheap.cpp	/^bool pheap::isEmpty()$/;"	f	class:pheap
+isFull	pheap.cpp	/^bool pheap::isFull()$/;"	f	class:pheap
+lchild	bheap.cpp	/^int bheap::lchild(int i){$/;"	f	class:bheap
+leftChild	pheap.h	/^        pnode *leftChild;$/;"	m	class:pnode
+main	encoder.cpp	/^int main(int argc, char *argv[]){$/;"	f
+makeEmpty	pheap.cpp	/^void pheap::makeEmpty()$/;"	f	class:pheap
+nextSibling	pheap.h	/^        pnode *nextSibling;$/;"	m	class:pnode
+parent	bheap.cpp	/^int bheap::parent(int i){$/;"	f	class:bheap
+percolatedown	bheap.cpp	/^void bheap::percolatedown(int i){$/;"	f	class:bheap
+percolateup	bheap.cpp	/^void bheap::percolateup(int i){$/;"	f	class:bheap
+pheap	pheap.cpp	/^pheap::pheap()$/;"	f	class:pheap
+pheap	pheap.cpp	/^pheap::pheap(pheap & rhs)$/;"	f	class:pheap
+pheap	pheap.cpp	/^pheap::pheap(vector<int> &numbers){$/;"	f	class:pheap
+pheap	pheap.h	/^class pheap$/;"	c
+pnode	pheap.h	/^        pnode(int element):$/;"	f	class:pnode
+pnode	pheap.h	/^class pnode$/;"	c
+prev	pheap.h	/^        pnode *prev;$/;"	m	class:pnode
+rchild	bheap.cpp	/^int bheap::rchild(int i){$/;"	f	class:bheap
+reclaimMemory	pheap.cpp	/^void pheap::reclaimMemory(pnode * t)$/;"	f	class:pheap
+root	pheap.h	/^        pnode *root;$/;"	m	class:pheap
+~bheap	bheap.cpp	/^bheap::~bheap(){$/;"	f	class:bheap
+~pheap	pheap.cpp	/^pheap::~pheap()$/;"	f	class:pheap
